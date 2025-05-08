@@ -1,0 +1,128 @@
+@use './globle';
+.wrap-1{
+    background: #f8f9fa;
+    .container{
+      .row{
+        .animate{ transform: translateY(100%); opacity: 0; visibility: hidden; transition: 0.9s linear; }
+        .slideUp .animate{ transform: translateY(0); opacity: 1; visibility: visible; }
+        padding-top: 7rem;
+        h5{
+          margin-top: 5rem;
+          font-size: 30px;
+          margin-bottom: 1rem;
+          text-align: center;
+          color: #f85d23;
+        }
+        h2{
+          font-size: 2.2rem;
+          text-align: center;
+          font-weight: 400;
+          margin-bottom: 2rem;
+        }
+
+        .wra-1-part-2{
+          margin-bottom: 3rem;
+          .wrap-1-part-2-content-1{
+            border: 2px solid black;
+            padding-left: 2rem;
+            margin-bottom: 7rem;
+            h3{
+              color: #000;
+              font-size: 1.75rem;
+              font-weight: 400;
+              font-family: 'Playfair Sans', sans-serif;
+              margin-top: 2rem;
+            }
+  
+            strong{
+              font-size: 2rem;
+              font-weight: 400;
+            }
+            p{
+              margin-top: 1rem;
+            }
+
+            a{
+              border: 1px solid #f85d23;
+              color: #f85d23;
+              padding: 1rem 2rem;
+              margin-top: 2rem;
+              margin-bottom: 2rem;
+            }
+          }
+
+          .wrap-1-part-2-content-2{
+            border: 2px solid #f85d23;
+            background: #f85d23;
+            margin-bottom: 7rem;
+            h3{
+              color: white;
+            }
+
+            strong{
+              color: white;
+            }
+
+            p{
+              color: white;
+            }
+
+            a{
+              border: 1px solid white;
+              color: white;
+            }
+          }
+        } 
+      }
+    }
+}
+
+.wrap-2{
+    background: #f8f9fa;
+    .container{
+      .row{
+            .animate{ transform: translateY(100%); opacity: 0; visibility: hidden; transition: 0.9s linear; }
+            .slideUp .animate{ transform: translateY(0); opacity: 1; visibility: visible; }
+            padding-top: 7rem;
+            h5{
+            margin-top: 5rem;
+            font-size: 30px;
+            margin-bottom: 1rem;
+            text-align: center;
+            color: #f85d23;
+            }
+            h2{
+            font-size: 2.2rem;
+            text-align: center;
+            font-weight: 400;
+            margin-bottom: 2rem;
+            }
+
+            .message-icon-content{
+                margin-top: 4.5rem;
+                svg{
+                  margin-bottom: 1rem;
+                  color: #f85d23;
+                  text-align: center;
+                  font-size: 40px;
+                  margin-left: 7.7rem;
+                }
+        
+                h4{
+                  font-style: 1.1rem;
+                  margin-bottom: 1rem;
+                  text-align: center;
+                }
+
+                p{
+                    text-align: center;
+                }
+            }.wrap-2-move-up {
+                padding-bottom: 20rem;
+            }
+
+        }
+    }
+}
+
+

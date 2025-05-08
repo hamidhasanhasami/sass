@@ -1,0 +1,201 @@
+.banner{
+    .content{
+      .banner-content{
+        padding-right: 50px;
+        padding-left: 50px;
+      }
+      h2{
+        font-size: 2.7rem;
+        font-weight: 700;
+        margin-top: 9rem;
+        margin-bottom: 1rem;
+        font-family: 'Montserrat', sans-serif;
+
+        span{
+          color: rgba(255, 98, 0, 0.751);
+        }
+      }
+  
+      p{
+        font-size: 1rem;
+        font-family: 'Montserrat', sans-serif;
+      }
+  
+      img.home-img{
+        max-width:600px;
+        height: 411px;
+      }
+
+      .about-company{
+        display: flex;
+        margin-top: 2rem;
+
+        .about-project{
+          h3{
+            font-size: 3rem;
+            font-weight: 400;
+          }
+
+          p{
+            margin-right: 7rem;
+          }
+        }
+
+        .about-customer{
+          h3{
+            font-size: 3rem;
+            font-weight: 400;
+          }
+
+          p{
+            margin-right: 7rem;
+          }
+        }
+
+        .about-experience{
+          h3{
+            font-size: 3rem;
+            font-weight: 400;
+          }
+
+          p{
+            margin-right: 7rem;
+          }
+        }
+
+      }
+
+      .icon-content{
+        margin-top: -4.5rem;
+        h2{
+          font-weight: 400;
+          font-size: 2.5rem;
+          color: #333333;
+        }
+      }
+
+      .message-icon-content{
+        margin-top: 4.5rem;
+        svg{
+          margin-bottom: 1rem;
+          color: #f85d23;
+        }
+
+        h4{
+          font-style: 1.1rem;
+          margin-bottom: 1rem;
+        }
+      }
+
+      .layer-icon-content{
+          margin-top: 4.5rem;
+          svg{
+            margin-bottom: 1rem;
+            color: #f85d23;
+          }
+  
+          h4{
+            font-style: 1.1rem;
+            margin-bottom: 1rem;
+          }
+      }
+
+      .flight-icon-content{
+        margin-top: 4.5rem;
+        svg{
+          margin-bottom: 1rem;
+          color: #f85d23;
+        }
+
+        h4{
+          font-style: 1.1rem;
+          margin-bottom: 1rem;
+        }
+      }
+    }
+    // .dot-img{
+    //   img{
+    //     position: absolute;
+    //     top: 550px;
+    //     left: 700px;
+    //   }
+    // }
+}
+
+.wrap-4{
+    position: relative;
+    .container{
+      .row{
+        .animate{ transform: translateY(100%); opacity: 0; visibility: hidden; transition: 0.9s linear; }
+        .slideUp .animate{ transform: translateY(0); opacity: 1; visibility: visible; }
+        h5{
+          margin-top: 5rem;
+          font-size: 12px;
+          margin-bottom: 1rem;
+          text-align: center;
+          color: #f85d23;
+        }
+        h2{
+          font-size: 2.2rem;
+          text-align: center;
+          font-weight: 400;
+          margin-bottom: 3rem;
+        }
+
+        .testimonial-slider-container {
+          margin: 50px auto;
+          position: relative;
+          overflow: hidden;
+          width: 100%;
+          .testimonial-slider{
+            width: 100%;
+            display: flex;
+            transition: transform 0.5s ease-in-out;
+            .testimonial{
+              text-align: center;
+              flex-shrink: 0;
+              width: 100%;
+              padding: 20px;
+              .profile-image{
+                img{
+                  height: 70px;
+                  width: 70px;
+                  border-radius: 50%;
+                  object-fit: cover;
+                }
+              }
+              .name{
+                font-size: 18px;
+                color: #000;
+                margin-top: 1rem;
+              }
+              .quote{
+                margin-top: -2rem;
+                margin-bottom: 1rem;
+                line-height: 1.6;
+              }
+            }
+          }
+        }
+
+        .navigation {
+          text-align: center;
+          margin-bottom: 12rem;
+        }
+      
+        .circle {
+          display: inline-block;
+          width: 10px;
+          height: 10px;
+          border-radius: 50%;
+          background-color: #bbb;
+          margin: 0 5px;
+          cursor: pointer;
+        }
+      
+        .circle.active {
+          background-color: #F85D23;      
+        }
+      }
+  }
+} 

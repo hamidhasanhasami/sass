@@ -1,0 +1,81 @@
+@use './globle.scss';
+@use './feature_index.scss';
+
+
+.banner{
+    .banner-content{
+        margin-top: 13rem;
+        h2{
+            font-size: 2.7rem;
+            font-weight: 700;
+            margin-top: 9rem;
+            margin-bottom: 1rem;
+            font-family: 'Montserrat', sans-serif;
+          }
+      
+          p{
+            font-size: 1rem;
+            font-family: 'Montserrat', sans-serif;
+          }
+
+          a{
+            border: 1px solid #f85d23;
+            color: #f85d23;
+            padding: 1rem 2rem;
+            margin-top: 2rem;
+            margin-bottom: 2rem;
+          }
+
+          .hom-img-container{
+            height: 700px;
+          }
+          .img-wrapper{
+            position: absolute;
+            right: 0;
+            top: 0;
+            width: 50%;
+            background-position: top center;
+            background-repeat: no-repeat;
+            z-index: -1;
+  
+            img.home-img{
+              height: 100vh;
+              min-height: 700px;
+              width: 100%;
+            }
+  
+            img.dot-img{
+              position: absolute;
+              bottom: -10%;
+              left: -10%;
+            }
+          }
+    }
+
+
+    .icon-heading-para{
+        margin-bottom: 3rem;
+        margin-top: 26rem;
+        svg{color: rgb(248 ,93 ,35)}
+        h4{
+            font-size: 30px;
+            font-weight: 400;
+            color: #333333;
+        }
+
+        p{
+            font-size: 18px;
+            margin-top: 1rem;
+        }
+
+        
+         
+
+
+    } 
+
+
+    
+}
+
+
